@@ -20,19 +20,19 @@ I used it in this task to identify normal traffic such as **DNS** and **HTTP**, 
 - **Description**: HTTP (Hypertext Transfer Protocol) is the foundation of web communication, enabling clients and servers to exchange data such as web pages and files.  
 - **Analysis**: I identified HTTP traffic by filtering on **port 80**, which showed unencrypted web requests.
   **Wireshark Capture:**  
-![HTTP Capture]("C:\Users\RHYTHM\OneDrive\Pictures\Screenshots\WS_http")
+![HTTP Capture]("WS_http")
 
 ### b) DNS  
 - **Description**: DNS (Domain Name System) resolves domain names into IP addresses so that devices can locate and communicate with each other.  
 - **Analysis**: I identified DNS traffic by filtering on **port 53** and observed queries for websites I visited (e.g., `google.com`).
   **Wireshark Capture:**  
-![DNS Capture]("C:\Users\RHYTHM\OneDrive\Pictures\Screenshots\WS_dns")
+![DNS Capture]("WS_dns")
 
 ### c) TLS  
 - **Description**: TLS (Transport Layer Security) is a protocol that encrypts and secures communication between devices.  
 - **Analysis**: I identified TLS traffic when accessing **HTTPS websites**. The content was encrypted, but the **Server Name Indication (SNI)** was still visible.
   **Wireshark Capture:**  
-![TLS Capture]("C:\Users\RHYTHM\OneDrive\Pictures\Screenshots\WS_tls") 
+![TLS Capture]("WS_tls") 
 
 ---
 
