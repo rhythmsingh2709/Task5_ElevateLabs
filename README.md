@@ -20,7 +20,7 @@ I used it in this task to identify normal traffic such as **DNS** and **HTTP**, 
 - **Description**: HTTP (Hypertext Transfer Protocol) is the foundation of web communication, enabling clients and servers to exchange data such as web pages and files.  
 - **Analysis**: I identified HTTP traffic by filtering on **port 80**, which showed unencrypted web requests.
   **Wireshark Capture:**  
-![HTTP Capture](images/WS_http)
+![HTTP Capture](Task5_ElevateLabs/images/WS_http.png)
 
 ### b) DNS  
 - **Description**: DNS (Domain Name System) resolves domain names into IP addresses so that devices can locate and communicate with each other.  
