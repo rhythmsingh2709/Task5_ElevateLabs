@@ -26,13 +26,13 @@ I used it in this task to identify normal traffic such as **DNS** and **HTTP**, 
 - **Description**: DNS (Domain Name System) resolves domain names into IP addresses so that devices can locate and communicate with each other.  
 - **Analysis**: I identified DNS traffic by filtering on **port 53** and observed queries for websites I visited (e.g., `google.com`).
   **Wireshark Capture:**  
-![DNS Capture](images/WS_dns)
+![DNS Capture](images/WS_dns.png)
 
 ### c) TLS  
 - **Description**: TLS (Transport Layer Security) is a protocol that encrypts and secures communication between devices.  
 - **Analysis**: I identified TLS traffic when accessing **HTTPS websites**. The content was encrypted, but the **Server Name Indication (SNI)** was still visible.
   **Wireshark Capture:**  
-![TLS Capture](images/WS_tls) 
+![TLS Capture](images/WS_tls.png) 
 
 ---
 
